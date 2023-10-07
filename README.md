@@ -15,7 +15,7 @@
 
 ### Don't forget to :star: the repo
 
-[![GitHub stars](https://img.shields.io/github/stars/parsalakzian/NewLifeVPN.svg?style=social&label=Star)](https://github.com//Sangwan5688/LifeMusic) ![GitHub forks](https://img.shields.io/github/forks/parsalakzian/NewLifeVPN.svg?style=social&label=Forks) ![GitHub followers](https://img.shields.io/github/followers/parsalakzian.svg?style=social&label=Follow)
+[![GitHub stars](https://img.shields.io/github/stars/parsalakzian/NewLifeVPN.svg?style=social&label=Star)](https://github.com//parsalakzian/NewLifeVPN) ![GitHub forks](https://img.shields.io/github/forks/parsalakzian/NewLifeVPN.svg?style=social&label=Forks) ![GitHub followers](https://img.shields.io/github/followers/parsalakzian.svg?style=social&label=Follow)
 
 ## Download
 [<img src="get_github.png"
