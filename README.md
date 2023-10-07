@@ -1,5 +1,4 @@
 # LifeMusic
-![Repo Banner](https://raw.githubusercontent.com/parsalakzian/LifeMusicVer/main/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png)
 
 
 
@@ -26,7 +25,7 @@
 
 ## Screenshots
 
-<img src="https://github.com/parsalakzian/NewLifeVPN/blob/main/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png?raw=true" width="32%">
+  <img src="https://github.com/parsalakzian/NewLifeVPN/blob/main/1.png?raw=true" width="32%">  <img src="https://github.com/parsalakzian/NewLifeVPN/blob/main/2.png?raw=true" width="32%">  <img src="https://github.com/parsalakzian/NewLifeVPN/blob/main/3.png?raw=true" width="32%">  <img src="https://github.com/parsalakzian/NewLifeVPN/blob/main/4.png?raw=true" width="32%">  <img src="https://github.com/parsalakzian/NewLifeVPN/blob/main/5.png?raw=true" width="32%">  <img src="https://github.com/parsalakzian/NewLifeVPN/blob/main/6.png?raw=true" width="32%">  <img src="https://github.com/parsalakzian/NewLifeVPN/blob/main/7.png?raw=true" width="32%">  
 
 ## License
 
