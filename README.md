@@ -3,15 +3,15 @@
 
 
 ## **FREE**
-. 10 Free Servers
-. Pre App Proxy
-. Easy To Setup
+     . 10 Free Servers
+     . Pre App Proxy
+     . Easy To Setup
 
 ## **PREMIUM**
-. Servers By Country
-. Config Option
-. Stable Connection
-. Static Ip (in future)
+     . Servers By Country
+     . Config Option
+     . Stable Connection
+     . Static Ip (in future)
 
 ### Don't forget to :star: the repo
 
