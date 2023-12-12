@@ -34,11 +34,10 @@ var languages = {
         dlls : "برای تشخیص خودکار نوع دستگاه از دانلود استفاده کنید و برای دیدن تمام نسخه ها از گیتهاب",
     }
 }
-
-if(window.location.hash){
-    if(window.location.hash === "#fa"){
+if(window.location.pathname){
+    if(window.location.pathname === "/fa"){
         document.title = languages.fa.appname;
-        langset.href = '#en';
+        langset.href = '/';
         document.body.lang = "fa";
         langset.textContent = languages.fa.lang;
         appname.textContent = languages.fa.appname;
