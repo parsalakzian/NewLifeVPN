@@ -32,6 +32,7 @@ var languages = {
         rev2n : "سپهر",
         dll : "چطور برنامه رو دریافت کنم؟",
         dlls : "برای تشخیص خودکار نوع دستگاه از دانلود استفاده کنید و برای دیدن تمام نسخه ها از گیتهاب",
+        dlls2 : "اول نسخه قبل را حذف نمایید",
     }
 }
 if(window.location.pathname){
@@ -76,6 +77,7 @@ if(window.location.pathname){
         rev2n.textContent = languages.fa.rev2n;
         dll.textContent = languages.fa.dll;
         dlls.textContent = languages.fa.dlls;
+        dlls2.textContent = languages.fa.dlls2;
         home2.textContent = languages.fa.Home;
         Features4.textContent = languages.fa.features;
         Reviews2.textContent = languages.fa.Reviews;
