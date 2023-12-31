@@ -10,6 +10,12 @@
   font-family: "Montserrat", "sans-serif";
 }
 
+body {
+  
+  background-image: linear-gradient(black ,#002d3a);
+  background-attachment: fixed;
+}
+
 html {
   overflow-x: hidden;
 }
@@ -133,6 +139,7 @@ html {
 										ADVANTAGES
    ========================================================================================================== */
 .fh5co-advantages-outer {
+  color: white;
   padding: 70px;
   height: auto;
   width: 100%;
@@ -145,6 +152,7 @@ html {
   letter-spacing: 1px;
 }
 .fh5co-advantages-outer .span-features {
+  color: white;
   text-transform: uppercase;
   font-size: 42px;
 }
@@ -194,6 +202,7 @@ html {
   width: 100%;
   height: auto;
   padding: 70px;
+  color:white;
 }
 .fh5co-slider-outer h1 {
   color: #648cff;
@@ -234,11 +243,12 @@ html {
 										FEATURES
    ========================================================================================================== */
 .curved-bg-div {
-  background: url("../img/curved-bgg.jpg") no-repeat;
+  background: url("../img/curved-bgg.png") no-repeat;
   background-position: 0px -140px;
   background-size: cover;
   width: 100%;
   height: 300px;
+  
 }
 
 .fh5co-features-outer {
@@ -264,7 +274,7 @@ html {
   margin-bottom: 20px;
 }
 .fh5co-features-outer .sm-6-content p {
-  color: #111;
+  color: #ffffff;
   font-weight: 500;
   font-size: 14.5px;
   line-height: 1.8em;
@@ -275,7 +285,7 @@ html {
   width: 300px;
 }
 .fh5co-features-outer .col-sm-6 .span-new {
-  color: #fff;
+  color: #000000;
   background: #fcec64;
   padding: 18px;
   width: 35px;
@@ -309,7 +319,7 @@ html {
   font-weight: 700;
 }
 .fh5co-features-outer .col-sm-6 .span-data {
-  color: #7e8c91;
+  color: #000000;
   background: #b8faee;
   padding: 20px;
   width: 40px;
@@ -344,9 +354,9 @@ html {
   font-weight: 700;
 }
 .fh5co-features-outer .col-sm-6 .circle {
-  color: #c3cfe5;
+  color: #000000;
   border: 1px solid #ededed;
-  background: #fff;
+  background: #a5a5a5;
   padding: 10px;
   width: 35px;
   display: inline-block;
@@ -408,6 +418,7 @@ html {
   height: 400px;
   padding: 70px;
   margin-top: 100px;
+  color: white;
 }
 .fh5co-reviews-outer .fh5co-reviews-inner {
   margin-top: 100px;
@@ -447,14 +458,14 @@ html {
   margin-top: 270px;
 }
 .fh5co-bottom-outer .fh5co-bottom-inner .col-sm-6 h1 {
-  color: #fff;
+  color: #000000;
   text-transform: uppercase;
   font-size: 30px;
   margin-bottom: 30px;
 }
 .fh5co-bottom-outer .fh5co-bottom-inner .col-sm-6 p {
   width: 350px;
-  color: #fff;
+  color: #000000;
   font-size: 14.5px;
   line-height: 1.85em;
 }
@@ -477,8 +488,10 @@ html {
   width: 100%;
   padding: 50px;
   height: 250px;
-  background: #2e3149;
-  overflow: hidden;
+  /* background: #2e3149; */
+  
+  background-image: linear-gradient(black ,#001f27);
+  background-attachment: fixed;
 }
 .footer-outer .footer-inner {
   width: 100%;
@@ -563,12 +576,12 @@ html {
   height: 1px;
   width: 60%;
   margin: 0 auto;
-  border: 1px solid #434769;
+  border: 1px solid #00B5E8;
   display: block;
   margin-top: 50px;
 }
 .footer-outer .copyright {
-  color: #565b87;
+  color: #ffffff;
   text-align: center;
   font-size: 13px;
   padding: 40px 0;
@@ -583,7 +596,6 @@ html {
   ========================================================================================================== */
 @media screen and (max-width: 1400px) {
   body {
-    background-color: #ffffff;
     overflow-x: hidden;
   }
 
