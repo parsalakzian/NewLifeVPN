@@ -4,6 +4,7 @@
 
 ## **FREE**
      . 10 Free Servers
+     . 30GB Free To Use
      . Pre App Proxy
      . Easy To Setup
 
