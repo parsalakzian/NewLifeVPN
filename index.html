@@ -303,16 +303,26 @@
 				};
 			};
 		
-			var userAgent = navigator.userAgent.toLowerCase();
-
-			// اگر دستگاه ویندوز باشد
-			if (userAgent.indexOf("windows") !== -1) {
-				window.open(wlink,"_self")
+			const userAgent = window.navigator.userAgent,
+				platform = window.navigator?.userAgentData?.platform || window.navigator.platform,
+				macosPlatforms = ['macOS', 'Macintosh', 'MacIntel', 'MacPPC', 'Mac68K'],
+				windowsPlatforms = ['Win32', 'Win64', 'Windows', 'WinCE'],
+				iosPlatforms = ['iPhone', 'iPad', 'iPod'];
+			let os = null;
+			
+			if (macosPlatforms.indexOf(platform) !== -1) {
+				alert('Your device is MacOS : Coming soon');
+			} else if (iosPlatforms.indexOf(platform) !== -1) {
+				alert('Your device is Ios : Coming soon');
+			} else if (windowsPlatforms.indexOf(platform) !== -1) {
+				window.open(wlink,"");
+			} else if (/Android/.test(userAgent)) {
+				window.open(alink,"")
+			} else if (/Linux/.test(platform)) {
+				alert('Your device is Linux : Coming soon');
 			}
-			// اگر دستگاه اندروید باشد
-			else if (userAgent.indexOf("android") !== -1) {
-				window.open(alink,"_self")
-			}
+			
+			
 		}
 	</script>
 
