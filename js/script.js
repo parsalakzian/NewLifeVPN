@@ -36,7 +36,7 @@ var languages = {
     }
 }
 if(window.location.pathname){
-    if(window.location.pathname === "/fa.html"){
+    if(window.location.pathname === "/fa"){
         document.title = languages.fa.appname;
         langset.href = '/';
         document.body.lang = "fa";
