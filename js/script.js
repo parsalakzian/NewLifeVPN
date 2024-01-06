@@ -36,7 +36,7 @@ var languages = {
     }
 }
 if(window.location.pathname){
-    if(window.location.pathname === "/fa"){
+    if(window.location.pathname === "/fa.html"){
         document.title = languages.fa.appname;
         langset.href = '/';
         document.body.lang = "fa";
@@ -61,8 +61,6 @@ if(window.location.pathname){
         unlimupsub.textContent = languages.fa.unlimupsub;
         ascreen.textContent = languages.fa.ascreen;
         ascreensub.textContent = languages.fa.ascreensub;
-        wscreen.textContent = languages.fa.wscreen;
-        wscreensub.textContent = languages.fa.ascreensub;
         nfeatures.textContent = languages.fa.nfeatures;
         nfeaturessub.textContent = languages.fa.nfeaturessub;
         rls.textContent = languages.fa.rls;
