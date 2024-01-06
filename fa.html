@@ -307,6 +307,8 @@
 				link = data[0]['assets'][i]['browser_download_url'];
 				if(link.endsWith('.exe')){
 					wlink = link;
+				}else if(link.endsWith('.AppImage')){
+					llink = link;
 				}else if(link.endsWith('Universal.apk')){
 					alink = link;
 				};
@@ -328,7 +330,7 @@
 			} else if (/Android/.test(userAgent)) {
 				window.open(alink)
 			} else if (/Linux/.test(platform)) {
-				alert('دستگاه شما لینوکس است : به زودی');
+				window.open(llink,"");
 			}
 			
 			

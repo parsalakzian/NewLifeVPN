@@ -301,10 +301,13 @@
 			<!-- console.log(data[0]['assets']); -->
 			var alink;
 			var wlink;
+			var llink;
 			for(var i in data[0]['assets']){
 				link = data[0]['assets'][i]['browser_download_url'];
 				if(link.endsWith('.exe')){
 					wlink = link;
+				}else if(link.endsWith('.AppImage')){
+					llink = link;
 				}else if(link.endsWith('Universal.apk')){
 					alink = link;
 				};
@@ -326,7 +329,7 @@
 			} else if (/Android/.test(userAgent)) {
 				window.open(alink,"")
 			} else if (/Linux/.test(platform)) {
-				alert('Your device is Linux : Coming soon');
+				window.open(llink,"");
 			}
 			
 			
