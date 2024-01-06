@@ -14,7 +14,7 @@
             <pubDate>Wed, 30 Dec 2023 21:00:00 +0000</pubDate>
             <enclosure
                 url="https://nlvpn.newlifes.site/fa"
-                sparkle:version="3.2.0" sparkle:os="windows" />
+                sparkle:version="3.1.0" sparkle:os="windows" />
         </item>
         <item>
             <title>Version 3.0.0</title>
