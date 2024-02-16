@@ -1,5 +1,5 @@
 const api_url = "https://api.github.com/repos/parsalakzian/NewLifeVPN/releases";
-			
+		
 // Defining async function
 async function getapi() {
 
@@ -16,7 +16,7 @@ async function getapi() {
             wlink = link;
         }else if(link.endsWith('.AppImage')){
             llink = link;
-        }else if(link.endsWith('Universal.apk')){
+        }else if(link.endsWith('arm64-v8a.apk')){
             alink = link;
         };
     };
