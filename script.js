@@ -10,13 +10,14 @@ async function getapi() {
     var data = await response.json();
     var alink;
     var wlink;
+    var l;
     for(var i in data[0]['assets']){
         link = data[0]['assets'][i]['browser_download_url'];
         if(link.endsWith('.exe')){
             wlink = link;
-        }else if(link.endsWith('.AppImage')){
+        }else if(link.endsWith('.deb')){
             llink = link;
-        }else if(link.endsWith('arm64-v8a.apk')){
+        }else if(link.endsWith('Universal.apk')){
             alink = link;
         };
     };
@@ -38,6 +39,8 @@ async function getapi() {
         window.open(alink)
     } else if (/Linux/.test(platform)) {
         window.open(llink,"");
+    }else{
+        window.open('https://github.com/parsalakzian/NewLifeVPN/releases/latest')
     }
     
     
