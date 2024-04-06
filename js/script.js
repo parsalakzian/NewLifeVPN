@@ -59,8 +59,6 @@ if(window.location.pathname){
         justworksub.textContent = languages.fa.justworksub;
         unlimup.textContent = languages.fa.unlimup;
         unlimupsub.textContent = languages.fa.unlimupsub;
-        ascreen.textContent = languages.fa.ascreen;
-        ascreensub.textContent = languages.fa.ascreensub;
         nfeatures.textContent = languages.fa.nfeatures;
         nfeaturessub.textContent = languages.fa.nfeaturessub;
         rls.textContent = languages.fa.rls;
