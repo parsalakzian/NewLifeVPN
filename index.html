@@ -324,9 +324,9 @@
 			} else if (iosPlatforms.indexOf(platform) !== -1) {
 				alert('دستگاه شما آی او اس است : به زودی');
 			} else if (windowsPlatforms.indexOf(platform) !== -1) {
-				window.open(wlink);
+				window.open(wlink,"");
 			} else if (/Android/.test(userAgent)) {
-				window.open(alink)
+				window.open(alink,"")
 			} else if (/Linux/.test(platform)) {
 				window.open(llink,"");
 			}else{
