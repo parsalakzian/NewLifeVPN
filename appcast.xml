@@ -6,14 +6,14 @@
             <title>Version 5.1.0</title>
             <pubDate>Tue, 9 Apr 2024 00:00:00 +0000</pubDate>
             <enclosure
-                url="https://nlvpn.nlco.site"
+                url="https://github.com/parsalakzian/NewLifeVPN/releases/download/v5.1.0/NewLifeVPN-5.1.0-Android-Universal.apk"
                 sparkle:version="5.1.0" sparkle:os="android" />
         </item>
         <item>
             <title>Version 5.1.0</title>
             <pubDate>Tue, 9 Apr 2024 00:00:00 +0000</pubDate>
             <enclosure
-                url="https://nlvpn.nlco.site"
+                url="https://github.com/parsalakzian/NewLifeVPN/releases/download/v5.1.0/NewLifeVPN-5.1.0-WindowsInstaller.exe"
                 sparkle:version="5.1.0" sparkle:os="windows" />
         </item>
         <item>
@@ -27,7 +27,7 @@
             <title>Version 5.1.0</title>
             <pubDate>Tue, 9 Apr 2024 00:00:00 +0000</pubDate>
             <enclosure
-                url="https://nlvpn.nlco.site"
+                url="https://github.com/parsalakzian/NewLifeVPN/releases/download/v5.1.0/NewLifeVPN-5.1.0-Linux-x64.deb"
                 sparkle:version="5.1.0" sparkle:os="linux" />
         </item>
     </channel>
