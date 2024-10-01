@@ -3,32 +3,32 @@
     <channel>
         <title>Release</title>
         <item>
-            <title>Version 5.2.5</title>
+            <title>Version 5.2.6</title>
             <pubDate>Sat, 31 Aug 2024 00:00:00 +0000</pubDate>
             <enclosure
-                url="https://github.com/parsalakzian/NewLifeVPN/releases/download/v5.2.5/NewLifeVPN-5.2.5-Android-Universal.apk"
-                sparkle:version="5.2.5" sparkle:os="android" />
+                url="https://github.com/parsalakzian/NewLifeVPN/releases/download/v5.2.6/NewLifeVPN-5.2.6-Android-Universal.apk"
+                sparkle:version="5.2.6" sparkle:os="android" />
         </item>
         <item>
-            <title>Version 5.2.5</title>
+            <title>Version 5.2.6</title>
             <pubDate>Sat, 31 Aug 2024 00:00:00 +0000</pubDate>
             <enclosure
-                url="https://github.com/parsalakzian/NewLifeVPN/releases/download/v5.2.5/NewLifeVPN-5.2.5-WindowsInstaller.exe"
-                sparkle:version="5.2.5" sparkle:os="windows" />
+                url="https://github.com/parsalakzian/NewLifeVPN/releases/download/v5.2.6/NewLifeVPN-5.2.6-WindowsInstaller.exe"
+                sparkle:version="5.2.6" sparkle:os="windows" />
         </item>
         <item>
-            <title>Version 5.2.5</title>
+            <title>Version 5.2.6</title>
             <pubDate>Sat, 31 Aug 2024 00:00:00 +0000</pubDate>
             <enclosure
                 url="https://nlvpn.nlco.site"
-                sparkle:version="5.2.5" sparkle:os="macos" />
+                sparkle:version="5.2.6" sparkle:os="macos" />
         </item>
         <item>
-            <title>Version 5.2.5</title>
+            <title>Version 5.2.6</title>
             <pubDate>Sat, 31 Aug 2024 00:00:00 +0000</pubDate>
             <enclosure
-                url="https://github.com/parsalakzian/NewLifeVPN/releases/download/v5.2.5/NewLifeVPN-5.2.5-Linux-x64.deb"
-                sparkle:version="5.2.5" sparkle:os="linux" />
+                url="https://github.com/parsalakzian/NewLifeVPN/releases/download/v5.2.6/NewLifeVPN-5.2.6-Linux-x64.deb"
+                sparkle:version="5.2.6" sparkle:os="linux" />
         </item>
     </channel>
 </rss>
